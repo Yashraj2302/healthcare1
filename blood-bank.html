@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank - HealthCare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">⚕️ HealthCare</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="blood-bank.html" style="color: var(--primary-color);">Blood Bank</a></li>
+                <li><a href="emergency.html" class="text-danger">Emergency</a></li>
+                <li><a href="login.html" class="btn btn-outline" style="padding: 0.4rem 1rem;">Login</a></li>
+                <li><a href="signup.html" class="btn btn-primary" style="padding: 0.4rem 1rem;">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero"
+            style="background-color: var(--secondary-color); text-align: center; display: block; padding-top: 6rem;">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem; color: var(--danger-color);">Give Blood, Save Lives</h1>
+            <p style="font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto 2rem;">Every drop counts. Join
+                our blood donation program and help us maintain a critical supply for those in need.</p>
+            <button class="btn btn-primary" style="font-size: 1.2rem; padding: 1rem 2rem;">Schedule Donation</button>
+        </section>
+
+        <section class="container mt-2">
+            <h2 class="section-title">Current Inventory Status</h2>
+            <div class="grid"
+                style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); text-align: center; gap: 1rem;">
+                <div class="card" style="padding: 1.5rem; background-color: #fffaf0; border-top-color: #f39c12;">
+                    <h3 style="font-size: 2rem; color: #e74c3c;">A+</h3>
+                    <p style="color: #f39c12; font-weight: bold;">Low</p>
+                </div>
+                <div class="card" style="padding: 1.5rem; background-color: #f4f6f7; border-top-color: #27ae60;">
+                    <h3 style="font-size: 2rem; color: #e74c3c;">A-</h3>
+                    <p style="color: #27ae60; font-weight: bold;">Adequate</p>
+                </div>
+                <div class="card" style="padding: 1.5rem; background-color: #f4f6f7; border-top-color: #27ae60;">
+                    <h3 style="font-size: 2rem; color: #e74c3c;">B+</h3>
+                    <p style="color: #27ae60; font-weight: bold;">Adequate</p>
+                </div>
+                <div class="card" style="padding: 1.5rem; background-color: #fdedec; border-top-color: #e74c3c;">
+                    <h3 style="font-size: 2rem; color: #e74c3c;">O-</h3>
+                    <p style="color: #e74c3c; font-weight: bold;">Critical</p>
+                </div>
+            </div>
+
+            <div
+                style="background-color: var(--header-bg); border-radius: 10px; padding: 2rem; margin-top: 3rem; text-align: left; box-shadow: var(--box-shadow);">
+                <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Who can donate?</h3>
+                <ul style="list-style-position: inside; color: #444; line-height: 1.8;">
+                    <li>You must be at least 17 years old.</li>
+                    <li>You must weigh at least 110 lbs (50 kg).</li>
+                    <li>You must be in generally good health and feeling well.</li>
+                    <li>You must not have donated blood in the last 56 days.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>HealthCare Portal</h4>
+                <p>Providing exceptional medical services with compassion and advanced technology to ensure the best
+                    patient outcomes.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="doctors.html">Find a Doctor</a></li>
+                    <li><a href="blood-bank.html">Blood Bank</a></li>
+                    <li><a href="login.html">Patient Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>Emergency: 911</p>
+                <p>Main: 1-800-HEALTH</p>
+                <p>Email: info@healthcare.gov</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 HealthCare Portal. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
