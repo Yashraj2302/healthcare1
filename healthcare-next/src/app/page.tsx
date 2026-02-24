@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Stethoscope, Ambulance, Droplet } from "lucide-react";
+import { Stethoscope, Ambulance, Droplet, MapPin } from "lucide-react";
 
 export default function Home() {
   return (
@@ -87,6 +87,19 @@ export default function Home() {
             <p className="text-text-muted mb-8 leading-relaxed">Access our fully equipped blood bank for urgent transfusions or become a donor today.</p>
             <Link href="/blood-bank" className="inline-flex items-center justify-center px-6 py-3 font-semibold rounded-full border-2 border-accent text-accent transition-all duration-300 hover:bg-accent hover:text-white hover:shadow-[0_4px_15px_rgba(244,63,94,0.3)]">
               Donate Blood
+            </Link>
+          </div>
+
+          {/* Service Card 4 */}
+          <div className="glass-card group relative p-10 rounded-3xl text-center hover:-translate-y-3 transition-all duration-300 hover:shadow-2xl hover:border-white/80 overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-[5px] bg-gradient-to-r from-secondary to-blue-400 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100" />
+            <div className="w-24 h-24 mx-auto bg-secondary/10 rounded-[30%] flex items-center justify-center text-secondary mb-8 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
+              <MapPin className="w-12 h-12" />
+            </div>
+            <h3 className="text-2xl font-bold mb-4">Find Hospitals</h3>
+            <p className="text-text-muted mb-8 leading-relaxed">Discover quality healthcare facilities across India with detailed information, specialties, and Google Maps integration.</p>
+            <Link href="/hospitals" className="inline-flex items-center justify-center px-6 py-3 font-semibold rounded-full border-2 border-secondary text-secondary transition-all duration-300 hover:bg-secondary hover:text-white hover:shadow-[0_4px_15px_rgba(14,165,233,0.3)]">
+              Find Hospitals
             </Link>
           </div>
         </div>

@@ -32,6 +32,14 @@ export function Navbar() {
                     </li>
                     <li>
                         <Link
+                            href="/hospitals"
+                            className="text-muted font-medium text-[1.05rem] relative py-2 transition-colors duration-150 hover:text-primary after:content-[''] after:absolute after:w-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-primary after:transition-all after:duration-300 after:rounded-full hover:after:w-full"
+                        >
+                            Hospitals
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
                             href="/blood-bank"
                             className="text-muted font-medium text-[1.05rem] relative py-2 transition-colors duration-150 hover:text-primary after:content-[''] after:absolute after:w-0 after:h-[2px] after:bottom-0 after:left-0 after:bg-primary after:transition-all after:duration-300 after:rounded-full hover:after:w-full"
                         >
